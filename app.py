@@ -3,6 +3,7 @@ from keras.preprocessing.image import img_to_array
 from keras.models import load_model
 import streamlit as st
 import os
+from PIL import Image
 
 st.title('Airplanes or Automobiles')
 
@@ -27,7 +28,7 @@ def load_image(filename):
 # load an image and predict the class
 def run_example(image):
     # load the image
-    img = load_img(input_buffer, target_size=(224, 224))
+    img = Image.open(image)
     # load model
     model = load_model('model.h5')
     # predict the class
