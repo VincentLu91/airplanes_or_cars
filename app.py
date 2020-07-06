@@ -17,6 +17,7 @@ def load_image(filename):
     # load the image 
     #img = load_img(filename, target_size=(224, 224))
     img = Image.open(filename)
+    img = img.resize((224,224),Image.ANTIALIAS)
     # convert to array
     img = img_to_array(img)
     # reshape into a single sample with 3 channels
