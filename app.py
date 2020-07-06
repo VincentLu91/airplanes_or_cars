@@ -14,8 +14,9 @@ input_buffer = st.file_uploader("Upload a file", type=("png", "jpg"))
 
 # load and prepare the image
 def load_image(filename):
-	# load the image
-	img = load_img(filename, target_size=(224, 224))
+	# load the image 
+	#img = load_img(filename, target_size=(224, 224))
+    img = Image.open(filename)
 	# convert to array
 	img = img_to_array(img)
 	# reshape into a single sample with 3 channels
