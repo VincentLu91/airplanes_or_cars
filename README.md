@@ -1,10 +1,10 @@
-# Airplanes or Cars
+# Airplanes or Automobiles
 
-The simple binary image classification application distinguishes between two popular types of transport: aerial planes or autombiles.
+The simple binary image classification application distinguishes between two popular types of transport: airplanes or autombiles.
 
-It uses a VGG16 pre-trained model from the Keras library and removes the last layer and instead replaces it with new classifier with a stochastic gradient descent. As well, the classification app runs a test harness to evaluate the custom VGG model.
+It uses a VGG16 pre-trained model from the Keras library and replaces the fully connected layers of the trained VGG model with the new classifier part to interpret the output with a stochastic gradient descent optimizer. As well, the classification app runs a test harness to estimate the performance of the custom-trained  model.
 
-The application is written in streamlit for the front-end, Pillow for loading/processing images, and keras for defining and configuring the deep learning image classification model.
+The application is written in streamlit for the front-end. Accompanying libraries include Pillow for loading/processing images, and keras for defining and configuring the deep learning image classification model.
 
 ## How to access the data app
 
@@ -25,7 +25,7 @@ Then:
 docker run -p 8501:8501 airplanes_or_cars_stapp:v1
 ```
 
-You may find the suggested Network URL and External URL links. Ignore those - go to the browser and enter:
+You may see the suggested Network and External URLs. Ignore those - go to the browser and enter:
 ```http://localhost:8501/```
 
 You should be able to view the containerized application.
