@@ -14,11 +14,7 @@ You can use the following link here: https://airplanes-or-cars.herokuapp.com
 
 ### You can also set up a Docker container to run the application
 
-After cloning the repo, cd to the repo and run:
-
-```
-docker build -t  airplanes_or_cars_stapp:v1 .
-```
+You can pull the docker image from the Docker Hub repository: https://hub.docker.com/r/vincelu299/airplanes_or_cars
 
 Then:
 ```
