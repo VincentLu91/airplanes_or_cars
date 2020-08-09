@@ -41,7 +41,7 @@ At this point the environment should be set up with required libraries to run th
 ```
 streamlit run app.py
 ```
-Then in the browser, enter ```localhost:8501/```
+Then in the browser, enter ```localhost:8501/```.
 
 ## How to use the data app
 
