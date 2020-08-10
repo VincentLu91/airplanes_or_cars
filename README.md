@@ -1,10 +1,16 @@
 # Airplanes or Automobiles
 
+Docker/Flask version of application deployed on Heroku: https://github.com/VincentLu91/airplanes-or-cars-docker-flask
+
+## About the Project
+
 The simple binary image classification application distinguishes between two popular types of transport: airplanes or autombiles.
 
 It uses a VGG16 pre-trained model from the Keras library and replaces the fully connected layers of the trained VGG model with the new classifier part to interpret the output with a stochastic gradient descent optimizer. As well, the classification app runs a test harness to estimate the performance of the custom-trained  model.
 
 The application is written in streamlit for the front-end. Accompanying libraries include Pillow for loading/processing images, and keras for defining and configuring the deep learning image classification model.
+
+Limitation: it can only resize images of certain sizes to 224 * 224 * 3
 
 ## How to access the data app
 
