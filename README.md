@@ -12,6 +12,8 @@ The application is written in streamlit for the front-end. Accompanying librarie
 
 Limitation: it can only resize images of certain sizes to 224 * 224 * 3
 
+I have written up a blog post on the IG Content Generator in great detail here: https://vincentlu91.github.io/2020/07/06/Image-Classification-Planes-or-Automobiles.html
+
 ## How to access the data app
 
 ### Deployed App
