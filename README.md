@@ -53,9 +53,14 @@ Then in the browser, enter ```localhost:8501/```.
 
 ## How to use the data app
 
-Upload an image or drag and drop it to the file picker:
+Upload an image (has to be size 224*224*3) or drag and drop it to the file picker:
 
 ![martymcfly](https://user-images.githubusercontent.com/3411100/86633685-f686f880-bf9e-11ea-94d3-45607d88d644.png)
+
+Example images:
+![airplane](https://user-images.githubusercontent.com/3411100/194626766-72180dec-c48f-4aa4-a607-11df01c1c8e8.jpg)
+![car](https://user-images.githubusercontent.com/3411100/194626816-6684532d-c547-4749-b224-574fac0d939e.jpg)
+![graphicstock-an-african-american-fat-man-holding-tray-with-fast-food-young-smiling-man-having-a-lunch-in-a-fast-food-restaurant-happy-plump-man-with-fast-food-vector-flat-design-illustration-square-layout_SXqB-sL8W_thumb](https://user-images.githubusercontent.com/3411100/194626830-7b99e260-e6f6-4493-b6c8-4e6ca53896e1.jpg)
 
 Click "Process". The image uploaded will be displayed, along with the result that it is either a plane, automobile, or neither.
 
