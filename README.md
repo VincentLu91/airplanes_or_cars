@@ -53,7 +53,7 @@ Then in the browser, enter ```localhost:8501/```.
 
 ## How to use the data app
 
-Upload an image (has to be size 224*224*3) or drag and drop it to the file picker:
+Upload an image or drag and drop it to the file picker:
 
 ![martymcfly](https://user-images.githubusercontent.com/3411100/86633685-f686f880-bf9e-11ea-94d3-45607d88d644.png)
 
