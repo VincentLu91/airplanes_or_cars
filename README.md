@@ -20,7 +20,7 @@ I have written up a blog post on the IG Content Generator in great detail here: 
 
 You can use the following link here: https://airplanes-or-cars.herokuapp.com
 
-(October 8 2022): Starting November, Heroku's free dynos will no longer be available therefore the application cannot be access on Heroku. YouTube demo can be seen below with the application demonstration:
+(October 8 2022): Starting November, Heroku's free dynos will no longer be available therefore the application can no longer run on Heroku. YouTube demo can be seen below with the application demonstration:
 
 https://youtu.be/jPelhNFDP9g
 
